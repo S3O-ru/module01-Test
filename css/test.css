@@ -23,6 +23,12 @@ a {
     font-weight: 700;
     text-decoration: none;
 }
+.link {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
+}
 h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -35,6 +41,9 @@ ul {
 }
 ul > li {
     margin-right: 30px;
+}
+ul > li:last-child {
+    margin-right: 0;
 }
 .box {
     display: flex;
